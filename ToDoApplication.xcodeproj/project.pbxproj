@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		3BF98CC02C69FD1E00ECD625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CBF2C69FD1E00ECD625 /* AppDelegate.m */; };
 		3BF98CC32C69FD1E00ECD625 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CC22C69FD1E00ECD625 /* SceneDelegate.m */; };
-		3BF98CC62C69FD1E00ECD625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CC52C69FD1E00ECD625 /* ViewController.m */; };
+		3BF98CC62C69FD1E00ECD625 /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CC52C69FD1E00ECD625 /* ToDoViewController.m */; };
 		3BF98CC92C69FD1E00ECD625 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3BF98CC82C69FD1E00ECD625 /* Base */; };
 		3BF98CCB2C69FD1F00ECD625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF98CCA2C69FD1F00ECD625 /* Assets.xcassets */; };
 		3BF98CCE2C69FD1F00ECD625 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3BF98CCD2C69FD1F00ECD625 /* Base */; };
 		3BF98CD12C69FD1F00ECD625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CD02C69FD1F00ECD625 /* main.m */; };
+		3BF98CDB2C6A042800ECD625 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CDA2C6A042800ECD625 /* Task.m */; };
+		3BF98CDE2C6A04DB00ECD625 /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CDD2C6A04DB00ECD625 /* InProgressViewController.m */; };
+		3BF98CE12C6A04F400ECD625 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CE02C6A04F400ECD625 /* DoneViewController.m */; };
+		3BF98CE42C6A051500ECD625 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF98CE32C6A051500ECD625 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,21 @@
 		3BF98CBF2C69FD1E00ECD625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BF98CC12C69FD1E00ECD625 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3BF98CC22C69FD1E00ECD625 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3BF98CC42C69FD1E00ECD625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3BF98CC52C69FD1E00ECD625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BF98CC42C69FD1E00ECD625 /* ToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		3BF98CC52C69FD1E00ECD625 /* ToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
 		3BF98CC82C69FD1E00ECD625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BF98CCA2C69FD1F00ECD625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF98CCD2C69FD1F00ECD625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BF98CCF2C69FD1F00ECD625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF98CD02C69FD1F00ECD625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BF98CD92C6A042800ECD625 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		3BF98CDA2C6A042800ECD625 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		3BF98CDC2C6A04DB00ECD625 /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		3BF98CDD2C6A04DB00ECD625 /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		3BF98CDF2C6A04F400ECD625 /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		3BF98CE02C6A04F400ECD625 /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		3BF98CE22C6A051500ECD625 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		3BF98CE32C6A051500ECD625 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +77,21 @@
 				3BF98CBF2C69FD1E00ECD625 /* AppDelegate.m */,
 				3BF98CC12C69FD1E00ECD625 /* SceneDelegate.h */,
 				3BF98CC22C69FD1E00ECD625 /* SceneDelegate.m */,
-				3BF98CC42C69FD1E00ECD625 /* ViewController.h */,
-				3BF98CC52C69FD1E00ECD625 /* ViewController.m */,
+				3BF98CC42C69FD1E00ECD625 /* ToDoViewController.h */,
+				3BF98CC52C69FD1E00ECD625 /* ToDoViewController.m */,
+				3BF98CDC2C6A04DB00ECD625 /* InProgressViewController.h */,
+				3BF98CDD2C6A04DB00ECD625 /* InProgressViewController.m */,
+				3BF98CDF2C6A04F400ECD625 /* DoneViewController.h */,
+				3BF98CE02C6A04F400ECD625 /* DoneViewController.m */,
+				3BF98CE22C6A051500ECD625 /* DetailsViewController.h */,
+				3BF98CE32C6A051500ECD625 /* DetailsViewController.m */,
 				3BF98CC72C69FD1E00ECD625 /* Main.storyboard */,
 				3BF98CCA2C69FD1F00ECD625 /* Assets.xcassets */,
 				3BF98CCC2C69FD1F00ECD625 /* LaunchScreen.storyboard */,
 				3BF98CCF2C69FD1F00ECD625 /* Info.plist */,
 				3BF98CD02C69FD1F00ECD625 /* main.m */,
+				3BF98CD92C6A042800ECD625 /* Task.h */,
+				3BF98CDA2C6A042800ECD625 /* Task.m */,
 			);
 			path = ToDoApplication;
 			sourceTree = "<group>";
@@ -146,10 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF98CC62C69FD1E00ECD625 /* ViewController.m in Sources */,
+				3BF98CDB2C6A042800ECD625 /* Task.m in Sources */,
+				3BF98CE12C6A04F400ECD625 /* DoneViewController.m in Sources */,
+				3BF98CC62C69FD1E00ECD625 /* ToDoViewController.m in Sources */,
+				3BF98CDE2C6A04DB00ECD625 /* InProgressViewController.m in Sources */,
 				3BF98CC02C69FD1E00ECD625 /* AppDelegate.m in Sources */,
 				3BF98CD12C69FD1F00ECD625 /* main.m in Sources */,
 				3BF98CC32C69FD1E00ECD625 /* SceneDelegate.m in Sources */,
+				3BF98CE42C6A051500ECD625 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
