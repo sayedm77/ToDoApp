@@ -7,7 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ToDoViewController : UIViewController
+@interface ToDoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
+
 
 
 @end
