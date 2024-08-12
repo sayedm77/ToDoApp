@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InProgressViewController : UIViewController
+@interface InProgressViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end
 

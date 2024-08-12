@@ -141,6 +141,8 @@
     return cell;
     
 }
+    
+    //  swiping using (edit ,delete)
 
 - (UISwipeActionsConfiguration *)tableView:(UITableView *)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -152,16 +154,14 @@
     }
     
     UIContextualAction *editAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleNormal
-                                                                             title:@"Edit"
-                                                                           handler:^(UIContextualAction *action, UIView *sourceView, void (^completionHandler)(BOOL)) {
+     title:@"Edit" handler:^(UIContextualAction *action, UIView *sourceView, void (^completionHandler)(BOOL)) {
         [self editTask:task atIndex:indexPath.row];
         completionHandler(YES);
     }];
     editAction.backgroundColor = [UIColor systemMintColor];
     
     UIContextualAction *deleteAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleDestructive
-                                                                               title:@"Delete"
-                                                                             handler:^(UIContextualAction *action, UIView *sourceView, void (^completionHandler)(BOOL)) {
+    title:@"Delete" handler:^(UIContextualAction *action, UIView *sourceView, void (^completionHandler)(BOOL)) {
         [self deleteTask:task atIndex:indexPath.row];
     }];
     deleteAction.backgroundColor = [UIColor systemRedColor];
