@@ -30,7 +30,7 @@
     _searchBar.delegate = self;
     _tableView.delegate = self;
     _tableView.dataSource = self;
-    // Do any additional setup after loading the view.
+   
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
