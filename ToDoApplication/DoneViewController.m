@@ -90,7 +90,7 @@
         default:
             break;
     }
-    cell.imageView.tintColor = [UIColor systemIndigoColor];
+    cell.imageView.tintColor = [UIColor systemTealColor];
     cell.textLabel.text = _filterArray[indexPath.row].title;
     
     

@@ -136,7 +136,7 @@
         default:
             break;
     }
-    cell.imageView.tintColor = [UIColor systemIndigoColor];
+    cell.imageView.tintColor = [UIColor systemTealColor];
     cell.textLabel.text = task.title;
     return cell;
     

@@ -162,7 +162,7 @@
             break;
     }
     cell.textLabel.text = task.title;
-    cell.imageView.tintColor = [UIColor systemIndigoColor];
+    cell.imageView.tintColor = [UIColor systemTealColor];
     return cell;
     
 }
