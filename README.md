@@ -10,12 +10,19 @@ The todo list app is designed for organizing and prioritizing tasks efficiently.
 
 ## Features 
 1- Add Tasks.
+
 2- View Tasks.
+
 3- Edit Tasks.
+
 4- Remove Tasks.
+
 5- Mark Task Status.
+
 6- Search Tasks.
+
 7- Filter Tasks.
+
 8- Local Storage.
 
 ## video 
