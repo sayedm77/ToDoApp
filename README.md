@@ -3,25 +3,28 @@ The todo list app is designed for organizing and prioritizing tasks efficiently.
 
 ## Technologies Used
 
-Programming Language: Objective-C
-Framework: UIKit
-Local Storage: UserDefaults
+1- Programming Language: Objective-C
+2- Framework: UIKit
+3- Local Storage: UserDefaults
 
 
 ## Features 
-
-Add Tasks.
-View Tasks.
-Edit Tasks.
-Remove Tasks.
-Mark Task Status.
-Search Tasks.
-Filter Tasks.
-Local Storage.
+1- Add Tasks.
+2- View Tasks.
+3- Edit Tasks.
+4- Remove Tasks.
+5- Mark Task Status.
+6- Search Tasks.
+7- Filter Tasks.
+8- Local Storage.
 
 ## video 
 
 
 
-https://github.com/user-attachments/assets/58172993-8d4a-4298-b4ad-1e3c1a85d3ca
+
+
+
+https://github.com/user-attachments/assets/6e1f3815-6203-47fb-a445-56cbb5369764
+
 
