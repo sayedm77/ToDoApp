@@ -4,7 +4,9 @@ The todo list app is designed for organizing and prioritizing tasks efficiently.
 ## Technologies Used
 
 1- Programming Language: Objective-C
+
 2- Framework: UIKit
+
 3- Local Storage: UserDefaults
 
 
